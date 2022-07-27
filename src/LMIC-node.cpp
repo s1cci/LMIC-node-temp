@@ -59,6 +59,7 @@
 
 
 const uint8_t payloadBufferLength = 4;    // Adjust to fit max payload length
+OneWire  ds(10);  // on pin 10 (a 4.7K resistor is necessary)
 
 
 //  █ █ █▀▀ █▀▀ █▀▄   █▀▀ █▀█ █▀▄ █▀▀   █▀▀ █▀█ █▀▄
